@@ -1,0 +1,49 @@
+iniciar-programa
+    inicia-ejecucion
+    repetir 14 veces
+    inicio
+        si no-junto-a-zumbador entonces
+        	inicio
+            	deja-zumbador;
+                avanza;
+            fin {si}
+        sino
+        	inicio
+            	si junto-a-zumbador entonces
+                	inicio
+                    	coge-zumbador;
+                        si junto-a-zumbador entonces
+                        	inicio
+                            	avanza;
+                            fin {si}
+                        sino
+                        	inicio
+                            	deja-zumbador;
+                                avanza;
+                            fin; {sino}
+                fin {si}
+        fin;
+    fin; {repetir}
+    
+    si no-junto-a-zumbador entonces
+    	inicio
+        	deja-zumbador;
+        fin {si}
+    sino
+    	inicio
+        	si junto-a-zumbador entonces
+            	inicio
+                	coge-zumbador;
+                    si junto-a-zumbador entonces
+                    	inicio
+                        fin {si}
+                    sino
+                    	inicio
+                        	deja-zumbador;
+                        fin; {sino}
+                fin {si}
+        fin; {sino}
+               
+        apagate;
+    termina-ejecucion
+finalizar-programa
