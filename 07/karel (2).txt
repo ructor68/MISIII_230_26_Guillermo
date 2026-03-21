@@ -1,0 +1,109 @@
+iniciar-programa
+        define-nueva-instruccion gira-derecha como 
+        inicio
+        gira-izquierda;
+        gira-izquierda;
+        gira-izquierda;
+        fin;
+    inicia-ejecucion
+        { TODO poner codigo aqui }
+        repetir 6 veces
+        inicio
+       deja-zumbador; 
+        avanza;
+        fin;
+        inicio
+        gira-derecha
+        fin;
+        repetir 4 veces
+        inicio
+        deja-zumbador;
+        avanza;
+        fin;
+        inicio
+        gira-derecha 
+        fin;
+        inicio
+        deja-zumbador
+        fin;
+        repetir 3 veces 
+        inicio 
+        avanza;
+        fin;
+        repetir 3 veces 
+        inicio
+        deja-zumbador;
+        avanza;
+        fin;
+        inicio
+        deja-zumbador;
+                gira-derecha
+        fin;
+        repetir 3 veces 
+        inicio
+        avanza;
+        deja-zumbador;
+        fin;
+        inicio
+        gira-derecha 
+        fin;
+        repetir 3 veces 
+        inicio 
+        avanza;
+        fin;
+        inicio
+        gira-derecha
+        fin;
+       avanza;
+       deja-zumbador;
+       avanza;
+      deja-zumbador;
+      repetir 2 veces 
+      inicio
+        avanza;
+        fin;
+        gira-izquierda;
+         repetir 3 veces
+         inicio
+         avanza;
+         fin;
+         inicio
+         gira-derecha
+         fin;
+        avanza;
+        inicio
+        gira-derecha
+        fin;
+        repetir 5 veces 
+        inicio
+              deja-zumbador;
+        avanza;
+        fin;
+        gira-izquierda;
+        avanza;
+        deja-zumbador;
+        avanza;
+        inicio
+        gira-derecha
+        fin;
+        avanza;
+        deja-zumbador;
+        gira-izquierda;
+        avanza;
+        gira-izquierda;
+        avanza;
+        deja-zumbador;
+        inicio
+        gira-derecha
+        fin;
+        avanza; 
+        gira-izquierda;
+        repetir 5 veces 
+        inicio
+        avanza;
+        deja-zumbador;
+        fin;
+        
+                apagate;
+    termina-ejecucion
+finalizar-programa
