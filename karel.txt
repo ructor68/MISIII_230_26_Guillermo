@@ -1,0 +1,13 @@
+iniciar-programa
+      define-nueva-instruccion gira(gui) como
+    inicio
+  repetir gui veces 
+      inicio
+          gira-izquierda;
+      fin;
+    fin;
+    inicia-ejecucion
+     gira(1009);
+        apagate;
+    termina-ejecucion
+finalizar-programa
